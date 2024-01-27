@@ -118,7 +118,7 @@ instead 1em= 1rem= 16px */
         transition: all 0.5s ease-in;
         opacity: 0;
         pointer-events: none;
-        visibility: hidden;
+        display: none;
     }
 
     .nav-open .icon-mobile-nav[name="close-outline"] {
@@ -137,7 +137,7 @@ instead 1em= 1rem= 16px */
 
     .nav-open .main-nav{
         opacity: 1;
-        visibility: visible;
+        display: block;
         pointer-events: auto;
         transform: translateX(0);
     }
